@@ -57,36 +57,39 @@
                 </button>
                 <h2 class="modal-title-text">Оставьте свои данные, мы вам перезвоним</h2>
                 <form class="js-speaker-form">
-                    <label class="connection-field">
-                        <p class="title-desk">Имя</p>
-                        <input class="modal-input" type="text" name="username" placeholder=" "/>
-                        <svg class="modal-icon" width="12" height="12">
-                            <use href="./images/sprite-hm5.svg#icon-user"></use>
-                        </svg>
-                    </label>
-                    <label class="connection-field">
-                        <p class="title-desk">Телефон</p>
-                        <input class="modal-input" type="tel" name="phone_number" placeholder=" "/>
-                        <svg class="modal-icon" width="13" height="13">
-                            <use href="./images/sprite-hm5.svg#icon-tel"></use>
-                        </svg>
-                    </label>
-                    <label class="connection-field">
-                        <p class="title-desk">Почта</p>
-                        <input class="modal-input" type="email" name="email" placeholder=" "/>
-                            <svg class="modal-icon" width="15" height="12">
-                                <use href="./images/sprite-hm5.svg#icon-emeil"></use>
-                            </svg>
-                    </label>
-                    <label class="connection-field">
-                        <p class="title-desk">Комментарий</p>
-                        <input class="aside-desc" type="text" rows="5" name="name" placeholder="Введите текст"/>
-                    </label>
-                    <label class="section-checkbox">
-                        <input class="checkbox" type="checkbox" name="yes" value="" checked/>
-                        <p class="modal-text-excerpt">Соглашаюсь с рассылкой и принимаю <a href="#" class="modal-link">Условия договора</a></p>
-                    </label>
-                    <button class="modal-button" type="button">Отправить</button> 
+                    <ul class="modal-list">
+                        <li class="modal-item"><label class="connection-field">
+                                <p class="title-desk">Имя</p>
+                                <input class="modal-input" type="text" name="username" placeholder=" " />
+                                <svg class="modal-icon" width="12" height="12">
+                                    <use href="./images/sprite-hm5.svg#icon-user"></use>
+                                </svg>
+                            </label></li>
+                        <li class="modal-item"><label class="connection-field">
+                                <p class="title-desk">Телефон</p>
+                                <input class="modal-input" type="tel" name="phone_number" placeholder=" " />
+                                <svg class="modal-icon" width="13" height="13">
+                                    <use href="./images/sprite-hm5.svg#icon-tel"></use>
+                                </svg>
+                            </label>
+                        <li class="modal-item"><label class="connection-field">
+                                <p class="title-desk">Почта</p>
+                                <input class="modal-input" type="email" name="email" placeholder=" " />
+                                <svg class="modal-icon" width="15" height="12">
+                                    <use href="./images/sprite-hm5.svg#icon-emeil"></use>
+                                </svg>
+                            </label></li>
+                        <li class="modal-item"><label class="connection-field">
+                                <p class="title-desk">Комментарий</p>
+                                <input class="aside-desc" type="text" name="name" placeholder="Введите текст" />
+                            </label></li>
+                        <li class="modal-item"><label class="section-checkbox">
+                                <input class="checkbox" type="checkbox" name="yes" value="" checked />
+                                <p class="modal-text-excerpt">Соглашаюсь с рассылкой и принимаю <a href="#"
+                                        class="modal-link">Условия договора</a></p>
+                            </label></li>
+                    </ul>
+                    <button class="modal-button" type="button">Отправить</button>
                 </form>
             </div>
         </div>
